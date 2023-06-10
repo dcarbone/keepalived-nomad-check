@@ -1,0 +1,1 @@
+# keepalived-nomad-check
