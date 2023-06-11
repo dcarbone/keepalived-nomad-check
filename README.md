@@ -1,10 +1,8 @@
 # keepalived-nomad-check
 
-Check script originally written as a check script for keepalived.
+This script exits 0 if the queried client is eligible for deployments. Originally written as a check script for keepalived.
 
 Requires [jq](https://github.com/jqlang/jq).
-
-This script exits 0 if the queried client is eligible for deployments.
 
 ## Keepalived Config
 
