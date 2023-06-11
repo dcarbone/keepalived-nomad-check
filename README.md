@@ -13,7 +13,7 @@ vrrp_script nomad_chk {
   script "/usr/local/bin/keepalived-nomad-check.sh"
   interval 10
   timeout 2
-  fall 2
+  fall 3
   rise 3
 }
 
